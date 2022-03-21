@@ -1,0 +1,49 @@
+<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg t="1647888217185" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4763" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" height="128"><defs><style type="text/css">@font-face { font-family: Georgia; src: local("Source Serif 4"); }
+@font-face { font-family: "New York"; src: local("Source Serif 4"); }
+@font-face { font-family: Times; src: local("Source Serif 4"); }
+@font-face { font-family: "Time New Roman"; src: local("Source Serif 4"); }
+@font-face { font-family: Arial; src: local("HarmonyOS Sans"); }
+@font-face { font-family: Helvetica; src: local("HarmonyOS Sans"); }
+@font-face { font-family: "Helvetica Neue"; src: local("HarmonyOS Sans"); }
+@font-face { font-family: "Open Sans"; src: local("HarmonyOS Sans"); }
+@font-face { src: local("HarmonyOS Sans"); }
+@font-face { font-family: Tahoma; src: local("HarmonyOS Sans"); }
+@font-face { font-family: Trebuchet; src: local("HarmonyOS Sans"); }
+@font-face { font-family: "Trebuchet MS"; src: local("HarmonyOS Sans"); }
+@font-face { font-family: Ubuntu; src: local("HarmonyOS Sans"); }
+@font-face { font-family: Verdana; src: local("HarmonyOS Sans"); }
+@font-face { font-family: Consolas; src: local("Source Code Pro"); }
+@font-face { font-family: Courier; src: local("Source Code Pro"); }
+@font-face { font-family: "Courier New"; src: local("Source Code Pro"); }
+@font-face { font-family: "DejaVu Sans Mono"; src: local("Source Code Pro"); }
+@font-face { font-family: "Lucida Console"; src: local("Source Code Pro"); }
+@font-face { font-family: "SF Mono"; src: local("Source Code Pro"); }
+@font-face { font-family: "Ubuntu Mono"; src: local("Source Code Pro"); }
+@font-face { font-family: SimSun; src: local("HarmonyOS Sans SC"); }
+@font-face { font-family: SimSun-ExtB; src: local("HarmonyOS Sans SC"); }
+@font-face { font-family: 宋体; src: local("HarmonyOS Sans SC"); }
+@font-face { font-family: NSimSun; src: local("HarmonyOS Sans SC"); }
+@font-face { font-family: 新宋体; src: local("HarmonyOS Sans SC"); }
+@font-face { font-family: SimHei; src: local("HarmonyOS Sans SC"); }
+@font-face { font-family: 黑体; src: local("HarmonyOS Sans SC"); }
+@font-face { font-family: "Microsoft YaHei UI"; src: local("HarmonyOS Sans SC"); }
+@font-face { font-family: "Microsoft YaHei"; src: local("HarmonyOS Sans SC"); }
+@font-face { font-family: 微软雅黑; src: local("HarmonyOS Sans SC"); }
+@font-face { font-family: "STHeiti SC"; src: local("HarmonyOS Sans SC"); }
+@font-face { font-family: "PingFang SC"; src: local("HarmonyOS Sans SC"); }
+@font-face { font-family: 苹方-简; src: local("HarmonyOS Sans SC"); }
+@font-face { font-family: MingLiU; src: local("HarmonyOS Sans TC"); }
+@font-face { font-family: MingLiU-ExtB; src: local("HarmonyOS Sans TC"); }
+@font-face { font-family: PMingLiU; src: local("HarmonyOS Sans TC"); }
+@font-face { font-family: PMingLiU-ExtB; src: local("HarmonyOS Sans TC"); }
+@font-face { font-family: "Microsoft JhengHei UI"; src: local("HarmonyOS Sans TC"); }
+@font-face { font-family: "Microsoft JhengHei"; src: local("HarmonyOS Sans TC"); }
+@font-face { font-family: 微軟正黑體; src: local("HarmonyOS Sans TC"); }
+@font-face { font-family: "STHeiti TC"; src: local("HarmonyOS Sans TC"); }
+@font-face { font-family: "PingFang TC"; src: local("HarmonyOS Sans TC"); }
+@font-face { font-family: 蘋方-繁; src: local("HarmonyOS Sans TC"); }
+@font-face { font-family: MingLiU_HKSCS; src: local("HarmonyOS Sans TC"); }
+@font-face { font-family: MingLiU_HKSCS-ExtB; src: local("HarmonyOS Sans TC"); }
+@font-face { font-family: "PingFang HK"; src: local("HarmonyOS Sans TC"); }
+@font-face { font-family: 蘋方-港; src: local("HarmonyOS Sans TC"); }
+</style></defs><path d="M523.73504 319.29344h-204.8c-16.896 0-30.72-13.824-30.72-30.72s13.824-30.72 30.72-30.72h204.8c16.896 0 30.72 13.824 30.72 30.72s-13.824 30.72-30.72 30.72zM605.65504 452.41344h-286.72c-16.896 0-30.72-13.824-30.72-30.72s13.824-30.72 30.72-30.72h286.72c16.896 0 30.72 13.824 30.72 30.72s-13.824 30.72-30.72 30.72z" fill="#FFFFFF" p-id="4764"></path><path d="M323.7376 138.42432h499.41504c41.61536 0 62.42304 20.80768 62.42304 62.42304v499.41504c0 41.61536-20.80768 62.43328-62.42304 62.43328H323.7376c-41.61536 0-62.42304-20.80768-62.42304-62.43328V200.84736c-0.01024-41.61536 20.79744-62.42304 62.42304-62.42304z m0 0" fill="#40A0FF" p-id="4765"></path><path d="M200.84736 261.30432h499.41504c41.61536 0 62.43328 20.80768 62.43328 62.42304v499.41504c0 41.61536-20.80768 62.42304-62.43328 62.42304H200.84736c-41.61536 0-62.42304-20.80768-62.42304-62.42304v-499.4048c0-41.6256 20.80768-62.43328 62.42304-62.43328z m0 0" fill="#3889FF" p-id="4766"></path><path d="M405.42208 420.17792c-9.55392 0-17.29536 7.74144-17.29536 17.29536l-0.0512 154.19392h-56.99584a23.0912 23.0912 0 0 0-14.11072 41.32864l112.49664 86.528a34.59072 34.59072 0 0 0 42.19904 0l112.49664-86.528a23.10144 23.10144 0 0 0-14.11072-41.32864h-57.05728V437.47328a17.28512 17.28512 0 0 0-17.29536-17.29536h-90.27584z m90.27584 0" fill="#FFFFFF" p-id="4767"></path></svg>

@@ -1,0 +1,28 @@
+{
+  "name": "insomnia-plugin-response-save",
+  "version": "1.0.0",
+  "author": "daiwenzh5",
+  "description": "insomnia plugin to save response",
+  "license": "MIT",
+  "repository": "https://github.com/daiwenzh5/insomnia-plugin-response-save",
+  "bugs": {
+    "url": "https://github.com/daiwenzh5/insomnia-plugin-response-save/issues"
+  },
+  "keywords": [
+    "insomnia",
+    "plugin",
+    "response",
+    "Content-Disposition"
+  ],
+  "insomnia": {
+    "name": "response-save",
+    "description": "save response to a file and named by content-disposition",
+    "images": {
+      "icon": "icon.svg"
+    },
+    "publisher": {
+      "name": "daiwenzh5"
+    }
+  },
+  "main": "main.js"
+}
