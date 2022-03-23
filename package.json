@@ -1,6 +1,6 @@
 {
   "name": "insomnia-plugin-response-save",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "daiwenzh5",
   "description": "insomnia plugin to save response",
   "license": "MIT",
