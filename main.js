@@ -10,29 +10,20 @@ const fs = require('fs');
 function getFileName(headers) {
     const fileName = headers.find(header => header.name === 'Content-Disposition')
         ?.value
-        ?.replace(/(UTF-8)|(attachment;)|(filename[\*]=)|'/ig, '')
-        || `导出-${new Date().getTime()}.bin`;
+        ?.replace(/(UTF-8)|(attachment;)|(filename.*=)|'/ig, '')
+        || `export-unknown-${new Date().getTime()}.bin`;
     console.log(fileName);
     return decodeURI(fileName);
 }
 module.exports.requestActions = [
     {
-        label: 'Save/保存',
+        label: 'Save As File/保存到文件',
         action: async ({ app, network }, {request}) => {
             // 发送请求
             const response = await network.sendRequest(request);
             const { statusCode, statusMessage, bodyPath, headers, contentType } = response;
             if (statusCode !== 200) {
                 await app.alert('导出失败', statusMessage);
-                return;
-            }
-            // 判断是否为文件流
-            if (contentType !== 'application/octet-stream') {
-                const result = fs.readFileSync(bodyPath).toString();
-                console.log(JSON.stringify(JSON.parse(result), null, '\t'));
-                const body = document.createElement('div');
-                body.innerHTML = '<pre style="padding: 2rem">' + JSON.stringify(JSON.parse(result), null, '\t\t') + '</pre>';
-                await app.dialog('导出失败', body);
                 return;
             }
             const fileName = getFileName(headers);
@@ -53,5 +44,5 @@ module.exports.requestActions = [
             }
         },
         icon: 'fa-floppy-o',
-    },
+    }
 ];
